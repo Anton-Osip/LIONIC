@@ -179,10 +179,20 @@ img {
 .section-contacts-link {
 }
 .footer {
+  height: 125px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 .footer-left {
+  display: flex;
+  align-items: center;
 }
 .footer-logo {
+  margin-right: 25px;
 }
 .footer-logo-img {
 }
@@ -193,8 +203,10 @@ img {
 .footer-nav {
 }
 .footer-list {
+  display: flex;
 }
-.footer-nav-item {
+.footer-nav-item:not(:last-child) {
+  margin-right: 35px;
 }
 .footer-nav-link {
 }
