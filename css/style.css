@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.btn {
+  color: #fff;
+  background-color: #3172b9;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 15px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.header {
+  height: 110px;
+}
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+.logo-img {
+}
+.nav {
+}
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-link {
+}
+.header-btn {
+  margin-left: 80px;
+}
+
+.section-hero {
+}
+.section-hero-heading {
+}
+.section-hero-description {
+}
+.section-hero-btn-description {
+}
+.section-hero-ssl-item {
+}
+.section-do {
+}
+.section-heading {
+}
+.section-description {
+}
+.section-do-list {
+}
+.section-do-item {
+}
+.section-do-icon {
+}
+.s0 {
+}
+.section-do-item-heading {
+}
+.section-do-item-description {
+}
+.section-clients {
+}
+.section-clients-list {
+}
+.section-clients-item {
+}
+.section-clients-testimonial {
+}
+.section-clients-user {
+}
+.section-clients-avatar {
+}
+.section-clients-user-info {
+}
+.section-clients-username {
+}
+.section-clients-user-description {
+}
+.section-contacts {
+}
+.section-contacts-list {
+}
+.section-contacts-item {
+}
+.section-contacts-icon {
+}
+.section-contacts-heading {
+}
+.section-contacts-info {
+}
+.section-contacts-link {
+}
+.footer {
+}
+.footer-left {
+}
+.footer-logo {
+}
+.footer-logo-img {
+}
+.footer-copyrihgts {
+}
+.footer-right {
+}
+.footer-nav {
+}
+.footer-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+}
+.footer-social-list {
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+.footer-social-icon {
+}
