@@ -29,7 +29,15 @@ img {
   padding: 15px 16px;
   border-radius: 4px;
   cursor: pointer;
+  display: inline-block;
 }
+
+.section-heading {
+}
+.text-center {
+  text-align: center;
+}
+
 .header {
   height: 110px;
 }
@@ -58,30 +66,43 @@ img {
   margin-left: 80px;
 }
 
-.section-hero {
+.hero-container {
+  padding: 120px 0 130px;
+}
+.hero-content {
+  max-width: 50%;
 }
 .section-hero-heading {
+  margin-bottom: 20px;
 }
 .section-hero-description {
+  margin-bottom: 30px;
 }
 .section-hero-btn-description {
+  margin-top: 10px;
 }
 .section-hero-ssl-item {
 }
 .section-do {
+  padding: 140px 0 100px;
 }
-.section-heading {
-}
+
 .section-description {
+  margin-top: 25px;
 }
 .section-do-list {
+  margin-top: 50px;
+  display: flex;
 }
-.section-do-item {
+.section-do-item{
+    flex: 1 1 25%;
+}
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
 }
 .section-do-icon {
 }
-.s0 {
-}
+
 .section-do-item-heading {
 }
 .section-do-item-description {
