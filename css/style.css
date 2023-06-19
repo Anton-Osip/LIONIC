@@ -261,7 +261,9 @@ img {
   line-height: 25px;
   color: #1c1c1c;
 }
+
 .section-contacts {
+  border-bottom: 1px solid #e4e4e4;
   padding: 75px 0 95px;
 }
 .section-contacts-list {
@@ -295,12 +297,20 @@ img {
 .section-contacts-heading {
   display: inline-block;
   margin-bottom: 40px;
+  font-size: 17px;
+  line-height: 1;
+  color: #1c1c1c;
 }
 .section-contacts-info {
   max-width: 250px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #787878;
 }
 .section-contacts-link {
+  color: #787878;
 }
+
 .footer {
   height: 125px;
 }
@@ -310,6 +320,7 @@ img {
   justify-content: space-between;
   height: 100%;
 }
+.footer-right,
 .footer-left {
   display: flex;
   align-items: center;
@@ -320,10 +331,12 @@ img {
 .footer-logo-img {
 }
 .footer-copyrihgts {
-}
-.footer-right {
+  font-size: 12px;
+  line-height: 17px;
+  color: #787878;
 }
 .footer-nav {
+  margin-right: 55px;
 }
 .footer-list {
   display: flex;
@@ -331,13 +344,42 @@ img {
 .footer-nav-item:not(:last-child) {
   margin-right: 35px;
 }
+.footer-nav-item {
+  font-size: 14px;
+  line-height: 1;
+}
 .footer-nav-link {
+  color: #787878;
 }
 .footer-social-list {
+  display: flex;
+  align-items: center;
 }
-.footer-social-item {
+.footer-social-item:not(:last-child) {
+  margin-right: 30px;
 }
 .footer-social-link {
 }
 .footer-social-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center center;
+}
+.footer-social-icon-twitter {
+  background-image: url(../img/Twitter.svg);
+  width: 18px;
+  height: 15px;
+}
+.footer-social-icon-linkedin {
+  background-image: url(../img/Linkedin.svg);
+  width: 18px;
+  height: 19px;
+  transform: translateY(-2px);
+}
+.footer-social-icon-mail {
+  background-image: url(../img/Email.svg);
+  width: 24px;
+  height: 17px;
 }
