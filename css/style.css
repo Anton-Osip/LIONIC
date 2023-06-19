@@ -72,6 +72,8 @@ img {
   line-height: 1.3;
   font-weight: 300;
   color: #414141;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .header {
@@ -157,12 +159,16 @@ img {
   margin-right: 10px;
   transform: translateY(-1px);
 }
+
 .section-do {
   padding: 140px 0 100px;
+  border-bottom: 1px solid #e4e4e4;
 }
-
 .section-description {
-  margin-top: 25px;
+  margin-top: 0px;
+  font-style: 16px;
+  line-height: 1.31;
+  color: #787878;
 }
 .section-do-list {
   margin-top: 50px;
@@ -170,34 +176,70 @@ img {
 }
 .section-do-item {
   flex: 1 1 25%;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 30px;
 }
 .section-do-item:not(:last-child) {
   margin-right: 30px;
 }
 .section-do-icon {
+  margin-bottom: 30px;
 }
 
 .section-do-item-heading {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  color: #1c1c1c;
 }
 .section-do-item-description {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #787878;
 }
+
 .section-clients {
+  border-bottom: 1px solid #e4e4e4;
   padding: 90px 0 100px;
+}
+.section-clients-heading {
+  margin-bottom: 45px;
 }
 .section-clients-list {
   display: flex;
 }
 .section-clients-item {
   flex: 1 1 33.33%;
+  border: 1px solid #e4e4e4;
+  padding: 50px 35px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .section-clients-item:not(:last-child) {
   margin-right: 30px;
 }
 .section-clients-testimonial {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 300;
+  color: #787878;
+  margin-bottom: 35px;
 }
 .section-clients-user {
   display: flex;
   align-items: center;
+  padding-top: 28px;
+  border-top: 1px solid #e9e9e9;
 }
 .section-clients-avatar {
   width: 60px;
@@ -209,8 +251,15 @@ img {
 .section-clients-user-info {
 }
 .section-clients-username {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #1c1c1c;
 }
 .section-clients-user-description {
+  font-size: 14px;
+  line-height: 25px;
+  color: #1c1c1c;
 }
 .section-contacts {
   padding: 75px 0 95px;
