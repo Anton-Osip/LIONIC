@@ -59,6 +59,13 @@ img {
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn:hover {
+  background-color: #258fff;
+}
+.btn:active {
+  transform: scale(0.9);
 }
 .btn.btn-big {
   padding: 20px 60px;
@@ -104,7 +111,11 @@ img {
   font-weight: 600;
 }
 .nav-link {
+  transition: color 0.3s ease;
   color: #1c1c1c;
+}
+.nav-link:hover {
+  color: #3172b9;
 }
 .nav-item.is-active .nav-link {
   color: #3172b9;
@@ -182,6 +193,25 @@ img {
   flex-direction: column;
   align-items: center;
   padding: 60px 30px;
+  transition-property: background-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+.section-do-item:hover {
+  cursor: pointer;
+  background-color: #3172b9;
+}
+.section-do-item:hover .section-do-item-heading {
+  color: #fff;
+}
+.section-do-item:hover .section-do-item-description {
+  color: #fff;
+}
+.section-do-item:hover .section-do-icon path {
+  fill: #fff;
+}
+.section-do-icon path {
+  transition: fill 0.3s ease;
 }
 .section-do-item:not(:last-child) {
   margin-right: 30px;
@@ -196,6 +226,7 @@ img {
   font-weight: 600;
   line-height: 1;
   color: #1c1c1c;
+  transition: color 0.3s ease;
 }
 .section-do-item-description {
   text-align: center;
@@ -204,6 +235,7 @@ img {
   font-size: 14px;
   line-height: 21px;
   color: #787878;
+  transition: color 0.3s ease;
 }
 
 .section-clients {
